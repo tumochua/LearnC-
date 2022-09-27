@@ -11,15 +11,26 @@ namespace LearnC
         static void Main(string[] args)
         {
             //khai báo bán kính và dien tích hình tròn
-            double S, r;
+            double number1, number2;
+            double tong;
+            double tich;
+            double hieu;
             //nhận đầu vào từ người dùng
-            Console.Write("Nhap vao ban kinh r: ");
-            r = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Nhap vao number 1: ");
+            number1 = Convert.ToDouble(Console.ReadLine());
+            Console.Write("Nhap vao number 2: ");
+            number2 = Convert.ToDouble(Console.ReadLine());
             //tính diện tích theo công thức 
-            S = Math.PI * r * r;
+            tong = number1 + number2;
+            tich = number1 * number2;
+            hieu = number1 - number2;
             //hiển thị chu vi vừa được tính ra màn hình
-            Console.Write($"Dien tich hinh tron la: {S}");
-            Console.WriteLine("\n----Chuong trinh nay duoc dang tai Freetuts.net----\n");
+            Console.Write($"tong: {tong}");
+            Console.Write('\n');
+            Console.Write($"tich: {tich}");
+            Console.Write('\n');
+            Console.Write($"hieu: {hieu}");
+            // Console.WriteLine("\n----Chuong trinh nay duoc dang tai Freetuts.net----\n");
         }
     }
 }
