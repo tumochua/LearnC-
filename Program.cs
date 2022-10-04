@@ -8,23 +8,36 @@ namespace LearnC
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            double number;
-            // Console.WriteLine in ra màn hình
-            Console.WriteLine("enter to number");
-            // Console.ReadLine() nhập vào từ bàn phím
-            number = Convert.ToDouble(Console.ReadLine());
-            if (number >= 0)
-            {
-                Console.WriteLine("so you can join a group");
-            }
-            else
-            {
-                Console.WriteLine("so you're welcome");
+        // static void Main(string[] args)
+        // {
+        //     // double point;
+        //     // // Console.WriteLine in ra màn hình
+        //     // Console.WriteLine("nhap vao so");
+        //     // // Console.ReadLine() nhập vào từ b0àn phím
+        //     // point = Convert.ToDouble(Console.ReadLine());
+        //     // if (point > 10 || point < 0)
+        //     // {
+        //     //     Console.WriteLine("so ban nhap khong chinh xac");
+        //     // }
+        //     // else
+        //     // {
+        //     //     if (point < 5)
+        //     //     {
+        //     //         Console.WriteLine("sinh vien yeu");
+        //     //         // Console.Write($"Diem: {point} la ");
+        //     //     }
+        //     //     if (point >= 5 && point <= 7)
+        //     //     {
+        //     //         Console.WriteLine("sinh vien kha");
+        //     //     }
+        //     //     if (point >= 8 && point <= 10)
+        //     //     {
+        //     //         Console.WriteLine("sinh vien tot");
+        //     //     }
+        //     // }
 
-            }
+        // }
 
-        }
+
     }
 }
