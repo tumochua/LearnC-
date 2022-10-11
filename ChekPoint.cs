@@ -17,7 +17,7 @@ namespace LearnC
             point = Convert.ToDouble(Console.ReadLine());
             if (point > 10 || point < 0)
             {
-                Console.WriteLine("so ban nhap khong chinh xac");
+                Console.WriteLine("diem ban nhap khong chinh xac");
             }
             else
             {
