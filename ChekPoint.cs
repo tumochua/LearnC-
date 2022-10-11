@@ -10,17 +10,22 @@
 //     {
 //         static void Main(string[] args)
 //         {
-//             double point;
+//             int point;
 //             // Console.WriteLine in ra màn hình
 //             Console.WriteLine("nhap vao diem");
 //             // Console.ReadLine() nhập vào từ b0àn phím
-//             point = Convert.ToDouble(Console.ReadLine());
+//             point = Convert.ToInt16(Console.ReadLine());
 //             if (point > 10 || point < 0)
 //             {
 //                 Console.WriteLine("diem ban nhap khong chinh xac");
 //             }
 //             else
 //             {
+//                 // if (point % 2 == 0)
+//                 // {
+//                 //     Console.WriteLine("sinh vien yeu");
+
+//                 // }
 //                 if (point < 5)
 //                 {
 //                     Console.WriteLine("sinh vien yeu");
