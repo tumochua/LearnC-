@@ -14,8 +14,12 @@ namespace LearnC
             for (int i = 1; i <= 10; i++)
             {
                 result = Math.Pow(i, 2);
-                // Console.Write("\nbinh phong : {0}\n", i, result);
-                Console.Write("\nbinh phong : {0}\n", result);
+                Console.Write(i);
+                Console.Write("  ");
+
+                Console.Write(result);
+                Console.Write("\n\n");
+
             }
         }
 
