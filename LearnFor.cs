@@ -27,21 +27,21 @@ namespace LearnC
 
             // tam giac giảm
 
-            int val = 5;
-            int i, j, k;
-            for (i = 1; i <= val; i++)
+            int x, y, z;
+            for (x = 5; x >= 1; x--)
             {
-                for (j = 1; j <= val - i; j++)
+                for (y = 5; y > x; y--)
                 {
-                    // Console.Write(" ");  
+                    Console.Write(" ");
                 }
-                for (k = 1; k <= j; k++)
+                for (z = 1; z <= x; z++)
                 {
                     Console.Write("*");
                 }
-                Console.WriteLine("");
+                Console.WriteLine();
             }
             Console.ReadLine();
+
 
             // tam giac tăng
             // int val = 5;
