@@ -8,36 +8,32 @@ namespace LearnC
 {
     class Program
     {
-        // static void Main(string[] args)
-        // {
-        //     // double point;
-        //     // // Console.WriteLine in ra màn hình
-        //     // Console.WriteLine("nhap vao so");
-        //     // // Console.ReadLine() nhập vào từ b0àn phím
-        //     // point = Convert.ToDouble(Console.ReadLine());
-        //     // if (point > 10 || point < 0)
-        //     // {
-        //     //     Console.WriteLine("so ban nhap khong chinh xac");
-        //     // }
-        //     // else
-        //     // {
-        //     //     if (point < 5)
-        //     //     {
-        //     //         Console.WriteLine("sinh vien yeu");
-        //     //         // Console.Write($"Diem: {point} la ");
-        //     //     }
-        //     //     if (point >= 5 && point <= 7)
-        //     //     {
-        //     //         Console.WriteLine("sinh vien kha");
-        //     //     }
-        //     //     if (point >= 8 && point <= 10)
-        //     //     {
-        //     //         Console.WriteLine("sinh vien tot");
-        //     //     }
-        //     // }
-
-        // }
-
+        static void Main(string[] args)
+        {
+            bool isPrime = true;
+            int i, j;
+            //Calculate and display the Prime number  
+            Console.WriteLine("Prime Numbers are : ");
+            for (i = 2; i <= 100; i++)
+            {
+                for (j = 2; j <= 100; j++)
+                {
+                    if (i != j && i % j == 0)
+                    {
+                        isPrime = false;
+                        break;
+                    }
+                }
+                if (isPrime)
+                {
+                    Console.Write("\t" + i);
+                }
+                isPrime = true;
+            }
+            Console.ReadKey();
+        }
 
     }
+
+
 }

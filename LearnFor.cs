@@ -8,60 +8,60 @@ namespace LearnC
 {
     class LearnFor
     {
-        static void Main(string[] args)
-        {
-            // check so chan le
-            // for (int number = 1; number <= 100; number++)
-            // {
-            //     if (number % 2 != 0)
-            //     {
-            //         Console.Write("\t {0}", number);
-            //     }
-            //     if (number % 10 == 0)
-            //     {
-            //         Console.WriteLine("\n");
+        // static void Main(string[] args)
+        // {
+        //     // check so chan le
+        //     // for (int number = 1; number <= 100; number++)
+        //     // {
+        //     //     if (number % 2 != 0)
+        //     //     {
+        //     //         Console.Write("\t {0}", number);
+        //     //     }
+        //     //     if (number % 10 == 0)
+        //     //     {
+        //     //         Console.WriteLine("\n");
 
-            //     }
-            // }
-            // Console.ReadKey();
+        //     //     }
+        //     // }
+        //     // Console.ReadKey();
 
-            // tam giac giảm
+        //     // tam giac giảm
 
-            int x, y, z;
-            for (x = 5; x >= 1; x--)
-            {
-                for (y = 5; y > x; y--)
-                {
-                    Console.Write(" ");
-                }
-                for (z = 1; z <= x; z++)
-                {
-                    Console.Write("*");
-                }
-                Console.WriteLine();
-            }
-            Console.ReadLine();
-
-
-            // tam giac tăng
-            // int val = 5;
-            // int i, j, k;
-            // for (i = 1; i <= val; i++)
-            // {
-            //     for (j = 1; j <= val - i; j++)
-            //     {
-            //         // Console.Write("");  
-            //     }
-            //     for (k = 1; k <= i; k++)
-            //     {
-            //         Console.Write("*");
-            //     }
-            //     Console.WriteLine("");
-            // }
-            // Console.ReadLine();
+        //     int x, y, z;
+        //     for (x = 5; x >= 1; x--)
+        //     {
+        //         for (y = 5; y > x; y--)
+        //         {
+        //             Console.Write(" ");
+        //         }
+        //         for (z = 1; z <= x; z++)
+        //         {
+        //             Console.Write("*");
+        //         }
+        //         Console.WriteLine();
+        //     }
+        //     Console.ReadLine();
 
 
-        }
+        //     // tam giac tăng
+        //     // int val = 5;
+        //     // int i, j, k;
+        //     // for (i = 1; i <= val; i++)
+        //     // {
+        //     //     for (j = 1; j <= val - i; j++)
+        //     //     {
+        //     //         // Console.Write("");  
+        //     //     }
+        //     //     for (k = 1; k <= i; k++)
+        //     //     {
+        //     //         Console.Write("*");
+        //     //     }
+        //     //     Console.WriteLine("");
+        //     // }
+        //     // Console.ReadLine();
+
+
+        // }
 
     }
 }
