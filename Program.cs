@@ -10,27 +10,48 @@ namespace LearnC
     {
         static void Main(string[] args)
         {
-            bool isPrime = true;
-            int i, j;
-            //Calculate and display the Prime number  
-            Console.WriteLine("Prime Numbers are : ");
-            for (i = 2; i <= 100; i++)
+            // bool isPrime = true;
+            // int i, j;
+            // Console.WriteLine("so nguyen la : ");
+            // for (i = 2; i <= 100; i++)
+            // {
+            //     for (j = 2; j <= 100; j++)
+            //     {
+            //         if (i != j && i % j == 0)
+            //         {
+            //             isPrime = false;
+            //             break;
+            //         }
+            //     }
+            //     if (isPrime)
+            //     {
+            //         Console.Write("\t" + i);
+            //     }
+            //     isPrime = true;
+            // }
+            // Console.ReadKey();
+
+            // lấy số dòng từ bàn phím
+            Console.Write("Nhap vao so dong cua tam giac:");
+            int rows = Convert.ToInt32(Console.ReadLine());
+            //sử dụng vòng for thứ nhất để lặp qua các dòng
+            for (int i = 1; i <= rows; i++)
             {
-                for (j = 2; j <= 100; j++)
+                //sử dụng vòng for thứ hai để in ra các khoảng trắng
+                for (int j = i; j < rows; j++)
                 {
-                    if (i != j && i % j == 0)
-                    {
-                        isPrime = false;
-                        break;
-                    }
+                    Console.Write(" ");
                 }
-                if (isPrime)
+                //sử dụng vòng for thứ hai để in ra các ký tự *
+                for (int j = 1; j <= (2 * i - 1); j++)
                 {
-                    Console.Write("\t" + i);
+                    Console.Write("*");
                 }
-                isPrime = true;
+                //xuống dòng
+                Console.Write("\n");
             }
-            Console.ReadKey();
+            Console.WriteLine("\n----Chuong trinh nay duoc dang tai Freetuts.net----\n");
+            Console.ReadLine();
         }
 
     }
