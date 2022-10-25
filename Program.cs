@@ -9,49 +9,49 @@ namespace LearnC
     class Program
     {
         static void Main(string[] args)
+        // nhập số nguyên dương bất kỳ từ bàn phím 1-10 va thông bao ra ten so do
+        // nhập ngày tháng năm
         {
-            // bool isPrime = true;
-            // int i, j;
-            // Console.WriteLine("so nguyen la : ");
-            // for (i = 2; i <= 100; i++)
-            // {
-            //     for (j = 2; j <= 100; j++)
-            //     {
-            //         if (i != j && i % j == 0)
-            //         {
-            //             isPrime = false;
-            //             break;
-            //         }
-            //     }
-            //     if (isPrime)
-            //     {
-            //         Console.Write("\t" + i);
-            //     }
-            //     isPrime = true;
-            // }
-            // Console.ReadKey();
+            int number;
+            Console.WriteLine("Nhap vao ngay thang");
+            number = Convert.ToInt16(Console.ReadLine());
 
-            // lấy số dòng từ bàn phím
-            Console.Write("Nhap vao so dong cua tam giac:");
-            int rows = Convert.ToInt32(Console.ReadLine());
-            //sử dụng vòng for thứ nhất để lặp qua các dòng
-            for (int i = 1; i <= rows; i++)
+            switch (number)
             {
-                //sử dụng vòng for thứ hai để in ra các khoảng trắng
-                for (int j = i; j < rows; j++)
-                {
-                    Console.Write(" ");
-                }
-                //sử dụng vòng for thứ hai để in ra các ký tự *
-                for (int j = 1; j <= (2 * i - 1); j++)
-                {
-                    Console.Write("*");
-                }
-                //xuống dòng
-                Console.Write("\n");
+                case 1:
+                    Console.WriteLine("thang 1");
+                    break;
+                case 2:
+                    Console.WriteLine("Thang 2");
+                    break;
+                case 3:
+                    Console.WriteLine("thang 3");
+                    break;
+                case 4:
+                    Console.WriteLine("thang 4");
+                    break;
+                case 5:
+                    Console.WriteLine("thang 5");
+                    break;
+                case 6:
+                    Console.WriteLine("thang 6");
+                    break;
+                case 7:
+                    Console.WriteLine("thang 7");
+                    break;
+                case 8:
+                    Console.WriteLine("thang 8");
+                    break;
+                case 9:
+                    Console.WriteLine("thang 9");
+                    break;
+                case 10:
+                    Console.WriteLine("thang 10");
+                    break;
+                default:
+                    Console.WriteLine("so  ban nhap ko nam trong khoang tu 1 - 10");
+                    break;
             }
-            Console.WriteLine("\n----Chuong trinh nay duoc dang tai Freetuts.net----\n");
-            Console.ReadLine();
         }
 
     }
