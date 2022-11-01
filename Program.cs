@@ -14,26 +14,26 @@ namespace LearnC
             {
                 //nhap so phan tu bat ky tu ban phim va in mang
                 Console.Write("Nhap so phan tu cua mang: ");
-                int n = Convert.ToInt32(Console.ReadLine());
-                int[] arr = new int[n];
-                int i;
+                int data = Convert.ToInt32(Console.ReadLine());
+                int[] arr = new int[data];
+                int index;
                 int sum = 0;
-                for (i = 0; i < n; i++)
+                for (index = 0; index < data; index++)
                 {
-                    Console.Write("Phan tu - {0} : ", i);
-                    arr[i] = Convert.ToInt32(Console.ReadLine());
+                    Console.Write("Phan tu - {0} : ", index);
+                    arr[index] = Convert.ToInt32(Console.ReadLine());
                 }
 
                 Console.Write("\nIn cac phan tu mang: ");
-                for (i = 0; i < n; i++)
+                for (index = 0; index < data; index++)
                 {
-                    Console.Write("{0}  ", arr[i]);
+                    Console.Write("{0}  ", arr[index]);
                 }
-                for (i = 0; i < n; i++)
+                for (index = 0; index < data; index++)
                 {
-                    if (arr[i] % 3 == 0)
+                    if (arr[index] % 3 == 0)
                     {
-                        sum = sum + arr[i];
+                        sum = sum + arr[index];
                     }
                 }
                 Console.Write("\nTong cac so chia het cho 3 la: " + sum);
