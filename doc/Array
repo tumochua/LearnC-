@@ -1,0 +1,29 @@
+Mảng 1 chiều,
+
+1, khái quát
+
+- mảng là 1 tập hợp các đối tượng các đối tượng có cùng kiểu dữ liệu
+- mỗi 1 đối tượng trong mảng đc goi là 1 phần tử . các phần tử trong mảng phân biệt với nhau bằng index
+- index là số nguyên ko âm bắt đầu từ 0
+
+vd: mảng A: {5,1,3,7,9}
+
+- mỗi 1 mảng cần có giới hạn số phần tử của mảng
+- việc cấp phát bộ nhớ cho mảng phụ thuộc số phần tử của mảng là khai báo
+- vị trí của mỗi ô nhớ . các phần tử trong mảng được sếp liền kề nhau
+  2, cấu trúc
+  kiểu dữ liệu-[]-tên mảng;
+  kiểu dữ liệu:trong đó kiểu dữ liệu các kiểu trong mảng
+  []: báo hiệu cho biết đây là mảng 1 chiều
+  tên mảng: đặt tên giống như khai báo biến
+  3: Sử dụng mảng
+  - Khi sử dụng mảng. Làm Kiểu dữ liệu cho 1 biến
+  - Kiểu trả về cho 1 hàm
+  - Kiểu tham số truyền vào cho 1 hàm
+  - Với 1 mảng có các thuộc tính như sau :
+  * length => trả về kiểu int
+  * LongLength => trả về kiểu long
+  * GetLength
+  * Sort
+  * Clear
+  * Copy
