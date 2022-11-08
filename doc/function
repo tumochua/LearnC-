@@ -1,0 +1,11 @@
+- hàm là 
++thay vì những đoạn code quá dài dẫn đến sự chồng chéo,... => dùng hàm để giảm bớt đoạn code
++sử dụng hàm để khai cho các lệnh coppy các chương trình đc sử dụng nhiều lần trong bài toán
++ sử dụng hàm để phân biệt rõ từng cái tính năng của đoạn code\
+- cấu trính của hàm 
++quyền truy cập(public,static)
++kiểu trả về 
++tên hàm
++giá trị tham số 
++ {khối lệnh code,(return)}
++trong đó quyền cập (public,static) => để nói về quyền truy cập của hàm đó 

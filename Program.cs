@@ -10,38 +10,18 @@ namespace LearnC
     {
         static void Main(string[] args)
         {
-            try
-            {
-                //nhap so phan tu bat ky tu ban phim va in mang
-                Console.Write("Nhap so phan tu cua mang: ");
-                int data = Convert.ToInt32(Console.ReadLine());
-                int[] arr = new int[data];
-                int index;
-                int sum = 0;
-                for (index = 0; index < data; index++)
-                {
-                    Console.Write("Phan tu - {0} : ", index);
-                    arr[index] = Convert.ToInt32(Console.ReadLine());
-                }
+            Console.WriteLine("\n nhap number tu ban phim");
+            Console.WriteLine("so thu nhat");
+            int number1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("so thu hai");
+            int number2 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("sum {0}", handleSum(number1, number2));
+            Console.ReadKey();
+        }
+        static int handleSum(int number1, int number2)
+        {
+            return number1 + number2;
 
-                Console.Write("\nIn cac phan tu mang: ");
-                for (index = 0; index < data; index++)
-                {
-                    Console.Write("{0}  ", arr[index]);
-                }
-                for (index = 0; index < data; index++)
-                {
-                    if (arr[index] % 3 == 0)
-                    {
-                        sum = sum + arr[index];
-                    }
-                }
-                Console.Write("\nTong cac so chia het cho 3 la: " + sum);
-            }
-            catch
-            {
-                Console.Write("Nhap sai! Vui long nhap lai.");
-            }
         }
 
 
