@@ -1,0 +1,15 @@
+các hàm làm việc với string
+1, String.format() => cho phép chúng ta định dạnh 1 chuỗi các định dạng dữ liệu khác nhau
+vd: int x = 5 => String str = String.format(x)
+2, String.concat() =>  cho phép nối các chuối lại với nhau để cho ta 1 sâu hoàn chỉnh
+vd: String st= "abc",
+String st2= "def"
+=> String.concat(st1,st2)
+3, String.join() => chèn 1 chuỗi con vào giũa các chuỗi 
+4, String.insert(index,chuỗi muốn chèn) => chèn 1 chuỗi con vào index nao đó
+5, String.remove => xóa
+6, String.compare => so sánh các sâu 2 sâu bằng nhau => return = 0
+7,  String.toUpper => return toàn bộ các ký tự tronng sâu là chữa hoa
+8,  String.toLawer => conver => thường
+9,  String.startWidth => cho phép so sánh ở chuối thứ 2 với từ đầu tiên trong chuỗi thứ nhất xem có tồn tại hay ko. => return boolearn
+10, String.trim() => cắt bỏ khoảng trắng ở 2 đầu
